@@ -1,0 +1,7 @@
+Running: xsim.dir/Matrix_Controler_TB_behav/xsimk -simmode gui -wdb Matrix_Controler_TB_behav.wdb -simrunnum 0 -socket 52653
+Design successfully loaded
+Design Loading Memory Usage: 27676 KB (Peak: 27796 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 109412 KB (Peak: 166944 KB)
+Simulation CPU Usage: 1250 ms

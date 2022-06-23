@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8534745000631183695  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot UART_IMPLEMENTATION_TB_behav xil_defaultlib.UART_IMPLEMENTATION_TB" , 
+    buildDate : "Apr 18 2022" , 
+    buildTime : "15:53:03" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/UART_IMPLEMENTATION_TB_behav/xsimk\"   \"xsim.dir/UART_IMPLEMENTATION_TB_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/UART_IMPLEMENTATION_TB_behav/obj/xsim_1.lnx64.o\" -L\"/home/louka/Apps/Xilinx/Vivado/2022.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

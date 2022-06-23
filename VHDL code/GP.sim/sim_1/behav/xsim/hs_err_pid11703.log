@@ -1,0 +1,20 @@
+#
+# An unexpected error has occurred (6)
+#
+Stack:
+/lib/x86_64-linux-gnu/libc.so.6(+0x43090) [0x7fcfcdc22090]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0xcb) [0x7fcfcdc2200b]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x12b) [0x7fcfcdc01859]
+/lib/x86_64-linux-gnu/libc.so.6(+0x22729) [0x7fcfcdc01729]
+/lib/x86_64-linux-gnu/libc.so.6(+0x33fd6) [0x7fcfcdc12fd6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x151d9) [0x7fcfcdbd11d9]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0xab09) [0x7fcfcdbc6b09]
+/home/louka/Apps/Xilinx/Vivado/2022.1/lib/lnx64.o/librdi_wavedata.so(+0x220788) [0x7fcf854f8788]
+/home/louka/Apps/Xilinx/Vivado/2022.1/lib/lnx64.o/librdi_wavedata.so(SimBridge::MiFrontEndDispatcher::sendRequest(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const+0x24) [0x7fcf8550d0c4]
+/home/louka/Apps/Xilinx/Vivado/2022.1/lib/lnx64.o/librdi_wavedata.so(+0x2252ff) [0x7fcf854fd2ff]
+/home/louka/Apps/Xilinx/Vivado/2022.1/lib/lnx64.o/librdi_wavedata.so(SimBridge::FrontEndControl::getStatus() const+0x3f) [0x7fcf85504d5f]
+/home/louka/Apps/Xilinx/Vivado/2022.1/lib/lnx64.o/librdi_simdata.so(RSDData::RSDLiveSimulationObject::getLatestTime() const+0x41) [0x7fcf8a4b86b1]
+/home/louka/Apps/Xilinx/Vivado/2022.1/lib/lnx64.o/librdi_simdata.so(RSDData::RSDIDataObjectValueCache::setUpIDataObjectValueCache(int, int)+0x31) [0x7fcf8a4b62a1]
+/home/louka/Apps/Xilinx/Vivado/2022.1/lib/lnx64.o/librdi_simdata.so(RSDExecutive::getTreeWindowData(RSDExecutive::TreeWindowType, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) const+0x2bf) [0x7fcf8a4ab97f]
+/home/louka/Apps/Xilinx/Vivado/2022.1/lib/lnx64.o/librdi_simdata.so(Java_ui_views_simulator_executive_simulationi_SimulationExecutive_1getTreeWindowData+0x167) [0x7fcf8a4f9337]
+[0x7fcf65d6f5a1]

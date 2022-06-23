@@ -1,0 +1,23 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /home/louka/Apps/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Matrix_Controler_TB_behav xil_defaultlib.Matrix_Controler_TB -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1537] value 0 is out of target constraint range 1 to 2147483647 [/home/louka/Documents/school/vub/Projects/3BAIW/Geïntegreerd practicum ELO-ICT/GP/GP.srcs/sources_1/new/CLOCK_DIVIDER.vhd:32]
+WARNING: [VRFC 10-1537] value 0 is out of target constraint range 1 to 2147483647 [/home/louka/Documents/school/vub/Projects/3BAIW/Geïntegreerd practicum ELO-ICT/GP/GP.srcs/sources_1/new/CLOCK_DIVIDER.vhd:41]
+WARNING: [VRFC 10-1537] value 0 is out of target constraint range 1 to 2147483647 [/home/louka/Documents/school/vub/Projects/3BAIW/Geïntegreerd practicum ELO-ICT/GP/GP.srcs/sources_1/new/CLOCK_DIVIDER.vhd:32]
+WARNING: [VRFC 10-1537] value 0 is out of target constraint range 1 to 2147483647 [/home/louka/Documents/school/vub/Projects/3BAIW/Geïntegreerd practicum ELO-ICT/GP/GP.srcs/sources_1/new/CLOCK_DIVIDER.vhd:41]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.CLOCK_DIVIDER [\CLOCK_DIVIDER(freq_in=50000000,...]
+Compiling architecture behavioral of entity xil_defaultlib.CLOCK_DIVIDER [\CLOCK_DIVIDER(freq_in=50000000,...]
+Compiling architecture behavioral of entity xil_defaultlib.UART [\UART(clk_freq=50000000,baudrate...]
+Compiling architecture behavioral of entity xil_defaultlib.Matrix_Control [\Matrix_Control(freq_system=5000...]
+Compiling architecture behavioral of entity xil_defaultlib.matrix_controler_tb
+Built simulation snapshot Matrix_Controler_TB_behav
